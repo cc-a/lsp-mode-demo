@@ -19,6 +19,7 @@
  '(package-selected-packages (quote (company-lsp lsp-ui lsp-mode flycheck use-package))))
  ;; 
 
+;; a basic configuration
 (require 'use-package)
 (use-package lsp-mode
   :ensure t
@@ -32,6 +33,7 @@
   (f90-mode . lsp))
 
 
+;; a more advanced, opinionated configuration
 ;; (require 'use-package)
 ;; (use-package lsp-mode
 ;;   :ensure t
