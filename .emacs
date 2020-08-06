@@ -29,7 +29,7 @@
 
   :hook
   (python-mode . lsp)
-  (fortran-mode . lsp))
+  (f90-mode . lsp))
 
 
 ;; (require 'use-package)
@@ -39,7 +39,6 @@
 ;;   :custom
 ;;   (lsp-ui-doc-enable nil "Disable auto display of documentation")
 ;;   (lsp-ui-doc-include-signature t "Add signatures to documentation")
-;;   (lsp-ui-doc-position (quote top) "Placement of documentation popup")
 ;;   (lsp-signature-doc-lines 10 "Limit lines for signature display")
 ;;   (lsp-ui-sideline-show-hover t "Show hover text in sideline")
 
@@ -53,4 +52,4 @@
 
 ;;   :hook
 ;;   (python-mode . lsp)
-;;   (fortran-mode . lsp))
+;;   (f90-mode . lsp))
